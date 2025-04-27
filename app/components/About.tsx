@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import vlogo from '@/assets/images/2.png';
-import { assets, infoList, toolsData } from '@/assets/assets';
+import { infoList, toolsData } from '@/assets/assets';
 
 // type Props = {
 //     isDarkMode: boolean;
@@ -24,7 +24,7 @@ const About = () => {
                     I have collaborated with teams to create and contribute to their success and growth.
                 </p>
                 <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl font-Outfit'>
-                    {infoList.map(({icon, iconDark, title, description}, index)=>(
+                    {infoList.map(({icon, title, description}, index)=>(
                         <li className='transform transition border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff]
                         hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]' key={index}>
                             <Image src={icon} alt={title} className='w-7 mt-3'/>

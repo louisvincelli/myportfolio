@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import React, { useEffect, useRef, useState } from 'react';
 import logoname from '@/assets/images/logoname.png';
-import moon_icon from '@/assets/images/moon_icon.png';
+//import moon_icon from '@/assets/images/moon_icon.png';
 import hamburger from '@/assets/images/hamburger.png';
-import cross from '@/assets/images/cross.png';
-import crosswhite from '@/assets/images/crosswhite.png';
+//import cross from '@/assets/images/cross.png';
+//import crosswhite from '@/assets/images/crosswhite.png';
 import crosswhite2 from '@/assets/images/crosswhite2.png';
-import newmoon from '@/assets/images/newmoon.png';
+//import newmoon from '@/assets/images/newmoon.png';
 
 // type NavbarProps = {
 //     isDarkMode: boolean;
