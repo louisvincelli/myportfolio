@@ -6,15 +6,15 @@ Deployed App" https://louisvincelli.github.io/myportfolio/
 
 A portfolio made in Next.js that summarize and explains the skill of a full stack developer.
 
-![Screenshot1](public/sc1.png)
+![Screenshot1](./public/sc1.PNG)
 
-![Screenshot5](public/sc5.png)
+![Screenshot5](./public/sc5.PNG)
 
-![Screenshot2](public/sc2.png)
+![Screenshot2](./public/sc2.PNG)
 
-![Screenshot3](public/sc3.png)
+![Screenshot3](./public/sc3.PNG)
 
-![Screenshot4](public/sc4.png)
+![Screenshot4](./public/sc4.PNG)
 
 ## Contact 
 * E-mail: louisvincelli@gmail.com
