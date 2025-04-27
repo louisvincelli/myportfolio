@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* * {
+  font-family: Outfit, Ovo,;
+} */
+
+/* .hoverCustom {
+  @apply hover:bg-lightHover hover:shadow-black;
+} */
+
+
+/* globals.css */
+
+@import "@fontsource/outfit";
+@import "@fontsource/ovo";
+
+/* Apply fonts globally */
+ /* * {
+  font-family: 'Outfit', 'Ovo', sans-serif;
+}  */
+
+.font-Outfit {
+  font-family: 'Outfit', sans-serif;
+}
+
+.font-Ovo {
+  font-family: 'Ovo', serif;
+}
+
+
+.grid-auto-fit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
