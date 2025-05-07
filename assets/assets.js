@@ -32,6 +32,14 @@ import axios from './images/axios.png';
 import gemini from './images/gemini.png';
 import mysql from './images/mysql.png';
 import expogo from './images/expogo.png';
+import typescript from './images/typescript.png';
+import nextauth from './images/nextauth.png';
+import vercel from './images/vercel.png';
+import turbopack from './images/turbopack.png';
+import eslint from './images/ESLint.png';
+import webpack from './images/webpack.png';
+import tailwind from './images/tailwind.png';
+import yahoo from './images/yahoo.png';
 
 import web_icon from './images/desktop.png';
 import mobile_icon from './images/mobile.png';
@@ -81,6 +89,14 @@ export const assets = {
     axios,
     mysql,
     expogo,
+    typescript,
+    nextauth,
+    vercel,
+    turbopack,
+    eslint,
+    webpack,
+    tailwind,
+    yahoo,
 }
 
 export const workData = [
@@ -132,28 +148,28 @@ export const webData = [
         title: 'Delicioso',
         description: 'A recipe web app that allows users to search, save, and create recipes along with cookbooks.',
         bgImage: '/deliciosoweb.png',
-        tools: [assets.reactlogos, assets.javascript, assets.vscode, assets.mysql, assets.node, assets.git],
+        tools: [assets.reactlogos, assets.javascript, assets.mysql, assets.node, assets.git],
         link: 'https://github.com/ayadalshaikhli/Delicioso'
     },
     {
         title: 'AI Finance Advisor',
         description: 'A simple personal finance assistant that categorizes spending, gets trends and gives plain summaries of the user\'s spending.',
         bgImage: '/work2.jpg',
-        tools: [assets.nextjs, assets.vscode, assets.fastapi, assets.python, assets.postgreSQL, assets.git],
+        tools: [assets.nextjs, assets.typescript, assets.tailwind, assets.python, assets.fastapi, assets.openai, assets.postgreSQL, assets.nextauth, assets.vercel],
         link: 'https://github.com/louisvincelli/finance-advisor'
     },
     {
         title: 'Varcade',
         description: 'A web app that allows users to play retro arcade games, earn points and put their name on the leaderboard.',
         bgImage: '/varcade.png',
-        tools: [assets.reactlogos, assets.node, assets.vscode, assets.mongodb, assets.graphql, assets.apollo, assets.jsonwebtoken, assets.git],
+        tools: [assets.reactlogos, assets.javascript, assets.node, assets.mongodb, assets.graphql, assets.apollo, assets.jsonwebtoken, assets.git],
         link: 'https://github.com/Vidfinnx/varcade'
     },
     {
         title: 'AI-Powered Investment Analyzer',
         description: 'An AI-stock predictor that uses LLM to analyze stock prices and give predictions on future stock prices.',
         bgImage: '/work4.jpg',
-        tools: [assets.reactlogos, assets.nextjs, assets.vscode, assets.python, assets.flask, assets.fastapi],
+        tools: [assets.reactlogos, assets.nextjs, assets.typescript, assets.tailwind, assets.python, assets.openai, assets.flask, assets.yahoo, assets.vercel],
         link: 'https://github.com/louisvincelli/investment-analyzer'
     },
 ]
@@ -163,28 +179,28 @@ export const mobileData = [
         title: 'Delicioso',
         description: 'A recipe mobile app that allows users to search, save, and create recipes along with cookbooks.',
         bgImage: '/deliciosomobile.png',
-        tools: [assets.reactnative, assets.vscode, assets.axios, assets.firebase, assets.expogo],
+        tools: [assets.reactnative, assets.typescript, assets.axios, assets.firebase, assets.expogo],
         link: 'https://github.com/louisvincelli'
     },
     {
         title: 'Finance Tracker App',
         description: 'A simple finance tracker app that allows users to track their income and expenses.',
         bgImage: '/expense.png',
-        tools: [assets.reactnative, assets.vscode, assets.axios, assets.firebase, assets.expogo],
-        link: 'https://github.com/louisvincelli'
+        tools: [assets.reactnative, assets.typescript, assets.axios, assets.firebase, assets.expogo],
+        link: 'https://github.com/louisvincelli/expense-tracker-app'
     },
     {
         title: 'Mental Health Journal',
         description: 'Daily Journaling app that uses LLM to identify mood patterns and provide insights.',
         bgImage: '/work3.jpg',
-        tools: [assets.reactnative, assets.vscode, assets.postgreSQL, assets.python, assets.fastapi, assets.openai, assets.aws, assets.expogo],
+        tools: [assets.reactnative, assets.typescript, assets.postgreSQL, assets.python, assets.fastapi, assets.openai, assets.aws, assets.expogo],
         link: 'https://github.com/louisvincelli/mental-health-journal'
     },
     {
         title: 'LLM Powered Flashcards',
         description: 'An LLM powered flashcard app + Quiz Generator that uses AI to create personalized flashcards and quizzes based on user input.',
         bgImage: '/work4.jpg',
-        tools: [assets.reactnative, assets.vscode, assets.python, assets.fastapi, assets.gemini, assets.postgreSQL, assets.expogo],
+        tools: [assets.reactnative, assets.typescript, assets.python, assets.fastapi, assets.gemini, assets.postgreSQL, assets.expogo],
         link: 'https://github.com/louisvincelli/llm-powered-flashcards'
     },
 ]
@@ -192,17 +208,17 @@ export const mobileData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark,
-        title: 'Languages', description: 'React/Next.js, React Native, Typescript, Javascript, HTML, CSS'
+        title: 'Languages', description: 'React/Next.js, React Native, Typescript, Javascript, Python, HTML, CSS'
     },
     { icon: assets.grad_icon, iconDark: assets.grad_icon_dark,
         title: 'Education', description: 'Aggie Alumni from University of California, Davis'
     },
     {
         icon: assets.work_icon, iconDark: assets.work_icon_dark,
-        title: 'Projects', description: 'Built projects in web and mobile'
+        title: 'Projects', description: 'Built projects for web and mobile'
     }
 ];
 
 export const toolsData = [
-    assets.reactlogos, assets.nextjs, assets.vscode, assets.xcode, assets.mongodb, assets.firebase, assets.postgreSQL, assets.swift, assets.aws, assets.git,
+    assets.reactlogos, assets.nextjs, assets.expogo, assets.tailwind, assets.aws, assets.mongodb, assets.firebase, assets.postgreSQL, assets.fastapi, assets.flask, assets.git,
 ];
