@@ -156,7 +156,7 @@ export const webData = [
         description: 'A simple personal finance assistant that categorizes spending, gets trends and gives plain summaries of the user\'s spending.',
         bgImage: '/work2.jpg',
         tools: [assets.nextjs, assets.typescript, assets.tailwind, assets.python, assets.fastapi, assets.openai, assets.postgreSQL, assets.nextauth, assets.vercel],
-        link: 'https://github.com/louisvincelli/finance-advisor'
+        link: 'https://github.com/louisvincelli/ai-finance-advisor'
     },
     {
         title: 'Varcade',
