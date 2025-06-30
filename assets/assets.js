@@ -239,7 +239,7 @@ export const moreWebData = [
     {
         title: 'ReadMe AI',
         description: 'An interactive story-telling app that uses LLM where users can input any subject or idea to create unique, immersive stories in real time.',
-        bgImage: '/readmeai1.png',
+        bgImage: '/readmeai1.PNG',
         tools: [assets.reactlogos, assets.nextjs, assets.typescript, assets.clerk, assets.drizzle, assets.heroui,assets.tailwind,assets.framermotion],
         link: 'https://github.com/louisvincelli/ai-story-teller'
     },
@@ -253,7 +253,7 @@ export const moreWebData = [
     {
         title: 'Pinteresting',
         description: 'A Pinterest clone that allows users to create, save, and share their own pins. Created for users who do not want AI images in their dashboard.',
-        bgImage: '/pinteresting.png',
+        bgImage: '/pinteresting.PNG',
         tools: [assets.reactlogos, assets.nextjs, assets.typescript, assets.nextauth, assets.firebase, assets.tailwind, assets.vercel],
         link: 'https://github.com/louisvincelli/pinterest-clone'
     },
