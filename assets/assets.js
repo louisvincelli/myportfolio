@@ -40,6 +40,12 @@ import eslint from './images/ESLint.png';
 import webpack from './images/webpack.png';
 import tailwind from './images/tailwind.png';
 import yahoo from './images/yahoo.png';
+import clerk from './images/clerk.png';
+import drizzle from './images/drizzle.png';
+import drizzlelong from './images/drizzlelong.png';
+import framermotion from './images/framermotion.png';
+import heroui from './images/heroui.png';
+import googlemaps from './images/googlemaps.png';
 
 import web_icon from './images/desktop.png';
 import mobile_icon from './images/mobile.png';
@@ -97,6 +103,12 @@ export const assets = {
     webpack,
     tailwind,
     yahoo,
+    clerk,
+    drizzle,
+    drizzlelong,
+    heroui,
+    framermotion,
+    googlemaps,
 }
 
 export const workData = [
@@ -166,11 +178,11 @@ export const webData = [
         link: 'https://github.com/Vidfinnx/varcade'
     },
     {
-        title: 'AI-Powered Investment Analyzer',
-        description: 'An AI-stock predictor that uses LLM to analyze stock prices and give predictions on future stock prices.',
-        bgImage: '/work4.jpg',
-        tools: [assets.reactlogos, assets.nextjs, assets.typescript, assets.tailwind, assets.python, assets.openai, assets.flask, assets.yahoo, assets.vercel],
-        link: 'https://github.com/louisvincelli/investment-analyzer'
+        title: 'Bizniz',
+        description: 'Bizniz is a location-based web application using Google Maps API that helps users discover businesses around them or anywhere in the world.',
+        bgImage: '/bizniz.PNG',
+        tools: [assets.reactlogos, assets.nextjs, assets.typescript, assets.googlemaps, assets.tailwind, assets.vercel],
+        link: 'https://github.com/louisvincelli/bizniz'
     },
 ]
 
@@ -222,3 +234,93 @@ export const infoList = [
 export const toolsData = [
     assets.reactlogos, assets.nextjs, assets.expogo, assets.tailwind, assets.aws, assets.mongodb, assets.firebase, assets.postgreSQL, assets.fastapi, assets.flask, assets.git,
 ];
+
+export const moreWebData = [
+    {
+        title: 'ReadMe AI',
+        description: 'An interactive story-telling app that uses LLM where users can input any subject or idea to create unique, immersive stories in real time.',
+        bgImage: '/readmeai1.png',
+        tools: [assets.reactlogos, assets.nextjs, assets.typescript, assets.clerk, assets.drizzle, assets.heroui,assets.tailwind,assets.framermotion],
+        link: 'https://github.com/louisvincelli/ai-story-teller'
+    },
+    {
+        title: 'Brew Finder',
+        description: 'A simple web application that uses Google Maps API to find breweries around the user.',
+        bgImage: '/work1.jpg',
+        tools: [assets.nextjs, assets.typescript, assets.tailwind, assets.googlemaps, assets.vercel],
+        link: 'https://github.com/louisvincelli'
+    },
+    {
+        title: 'Pinteresting',
+        description: 'A Pinterest clone that allows users to create, save, and share their own pins. Created for users who do not want AI images in their dashboard.',
+        bgImage: '/pinteresting.png',
+        tools: [assets.reactlogos, assets.nextjs, assets.typescript, assets.nextauth, assets.firebase, assets.tailwind, assets.vercel],
+        link: 'https://github.com/louisvincelli/pinterest-clone'
+    },
+    {
+        title: 'AI-Powered Investment Analyzer',
+        description: 'An AI-stock predictor that uses LLM to analyze stock prices and give predictions on future stock prices.',
+        bgImage: '/work4.jpg',
+        tools: [assets.reactlogos, assets.nextjs, assets.typescript, assets.tailwind, assets.python, assets.openai, assets.flask, assets.yahoo, assets.vercel],
+        link: 'https://github.com/louisvincelli/investment-analyzer'
+    },
+    {
+        title: 'AI Image Generator',
+        description: 'A simple web application that uses LLM to generate images based on user input.',
+        bgImage: '/imagegen.png',
+        tools: [assets.reactlogos, assets.javascript, assets.openai, assets.node, assets.git],
+        link: 'https://github.com/louisvincelli/ai-image-generator'
+    },
+    {
+        title: 'Inspiring Quotes',
+        description: 'A simple website that displays inspiring quotes every time the user clicks a button.',
+        bgImage: '/quotes.PNG',
+        tools: [assets.reactlogos, assets.javascript, assets.tailwind, assets.node, assets.git],
+        link: 'https://github.com/louisvincelli/quotes-project'
+    },
+    {
+        title: 'In Progess',
+        description: 'A web application is in progress.',
+        bgImage: '/work-1.jpg',
+        tools: [assets.reactlogos, assets.nextjs, assets.typescript, assets.tailwind, assets.vercel, assets.git],
+        link: 'https://github.com/louisvincelli'
+    },
+    {
+        title: 'In Progress',
+        description: 'A web application is in progress.',
+        bgImage: '/work-1.jpg',
+        tools: [assets.reactlogos, assets.nextjs, assets.typescript, assets.tailwind, assets.vercel, assets.git],
+        link: 'https://github.com/louisvincelli'
+    },
+]
+
+export const moreMobileData = [
+    {
+        title: 'Brewer Finer',
+        description: 'A mobile app that uses Google Maps API to find breweries around the user.',
+        bgImage: '/work2.jpg',
+        tools: [assets.reactnative, assets.typescript, assets.axios, assets.googlemaps, assets.firebase, assets.expogo],
+        link: 'https://github.com/louisvincelli'
+    },
+    {
+        title: 'FitBuddy',
+        description: 'A mobile app that uses LLM to generate workout plans based on user input.',
+        bgImage: '/work4.jpg',
+        tools: [assets.reactnative, assets.javascript, assets.axios, assets.firebase, assets.gemini, assets.expogo],
+        link: 'https://github.com/louisvincelli/pumptime-mobile'
+    },
+    {
+        title: 'In Progress',
+        description: 'There is a mobile application in progress.',
+        bgImage: '/work-1.jpg',
+        tools: [assets.reactnative, assets.typescript, assets.tailwind, assets.axios, assets.firebase, assets.expogo],
+        link: 'https://github.com/louisvincelli'
+    },
+    {
+        title: 'In Progress',
+        description: 'There is a mobile application in progress.',
+        bgImage: '/work-1.jpg',
+        tools: [assets.reactnative, assets.typescript, assets.tailwind, assets.axios, assets.firebase, assets.expogo],
+        link: 'https://github.com/louisvincelli'
+    },
+]
