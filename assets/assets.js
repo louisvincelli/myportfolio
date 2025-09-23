@@ -296,7 +296,7 @@ export const moreWebData = [
 
 export const moreMobileData = [
     {
-        title: 'Brewer Finer',
+        title: 'Brew Finder',
         description: 'A mobile app that uses Google Maps API to find breweries around the user.',
         bgImage: '/work2.jpg',
         tools: [assets.reactnative, assets.typescript, assets.axios, assets.googlemaps, assets.firebase, assets.expogo],
