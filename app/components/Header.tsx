@@ -23,7 +23,7 @@ const Header = () => {
             Hello! <Image src={handwave} alt='handwave' className='w-6'/> I&apos;m Louis Vincelli
         </h3>
         <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">
-            Fullstack developer based in North Carolina.
+            Software Engineer based in North Carolina.
         </h1>
         <p className="max-w-2xl mx-auto font-Ovo">
             I am a Fullstack web and mobile developer who has a passion for creating seamless applications!
