@@ -14,12 +14,12 @@ const About = () => {
         <h4 className="text-center mb-2 text-base sm:text-lg font-Ovo">Introduction</h4>
         <h2 className="text-center text-3xl sm:text-4xl lg:text-5xl font-Ovo">About Me</h2>
 
-        <div className='flex w-full flex-col lg:flex-row items-center gap-10 sm:gap-16 lg:gap-20 my-12 sm:my-16 lg:my-20'>
+        <div className='flex w-full flex-col lg:flex-row lg:px-[12%] lg-max-w-5xl lg:mx-auto items-center gap-10 sm:gap-16 lg:gap-20 my-12 sm:my-16 lg:my-20'>
             <div className='w-48 sm:w-64 lg:w-80 rounded-3xl max-w-none'>
                 <Image src={vlogo} alt='user' className="w-full rounded-3xl" />
             </div>
             <div className="flex-1">
-                <p className='mb-8 sm:mb-10 max-w-2xl font-Ovo text-sm sm:text-base'> 
+                <p className='text-center mb-8 sm:mb-10 max-w-2xl font-Ovo text-sm sm:text-base'> 
                     I am Fullstack Web and Mobile Developer with a passion in creating seamless applications. 
                     I have collaborated with teams to create and contribute to their success and growth.
                 </p>

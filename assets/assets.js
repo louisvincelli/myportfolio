@@ -220,19 +220,19 @@ export const mobileData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark,
-        title: 'Languages', description: 'React/Next.js, React Native, Typescript, Javascript, Python, HTML, CSS'
+        title: 'Languages', description: 'React, React Native, Typescript, Javascript, Python, Swift, and more!'
     },
     { icon: assets.grad_icon, iconDark: assets.grad_icon_dark,
         title: 'Education', description: 'Aggie Alumni from University of California, Davis'
     },
     {
         icon: assets.work_icon, iconDark: assets.work_icon_dark,
-        title: 'Projects', description: 'Built projects for web and mobile'
+        title: 'Portfolio', description: 'Built applications for web and mobile devices'
     }
 ];
 
 export const toolsData = [
-    assets.reactlogos, assets.nextjs, assets.expogo, assets.tailwind, assets.aws, assets.mongodb, assets.firebase, assets.postgreSQL, assets.fastapi, assets.flask, assets.git,
+    assets.reactlogos, assets.typescript, assets.javascript, assets.swift, assets.python, assets.nextjs, assets.tailwind, assets.aws, assets.mongodb, assets.firebase, assets.postgreSQL, assets.fastapi, assets.flask, assets.git, assets.expogo
 ];
 
 export const moreWebData = [
